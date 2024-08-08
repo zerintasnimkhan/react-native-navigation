@@ -86,7 +86,6 @@ const styles = StyleSheet.create({
         fontWeight: '600',
     
         color: 'rgba(0, 0, 0, 0.5)',
-        textDecorationLine: 'line-through',
       },
       discountPrice: {
         fontSize: 18,

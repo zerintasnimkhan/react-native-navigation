@@ -22,7 +22,7 @@ import Details from './screens/Details';
 
 export type RootStackParamList = {
   Home: undefined;
-  Details: {productId: string}
+  Details: {product: Product}
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>()
@@ -36,14 +36,14 @@ function App(): React.JSX.Element {
         name='Home'
         component={Home}
         options={{
-          title: "Trending Products"
+          title: "Trending Cars"
         }}
         />
         <Stack.Screen
         name='Details'
         component={Details}
         options={{
-          title: "Product Details"
+          title: "Car Details"
         }}
         />
       </Stack.Navigator>
@@ -52,3 +52,5 @@ function App(): React.JSX.Element {
 }
 
 export default App;
+
+

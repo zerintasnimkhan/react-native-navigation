@@ -53,8 +53,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
   },
   image: {
-    width: 300,
-    height: 450,
+    width: 400,
+    height: 350,
     resizeMode: 'contain',
   },
   rowContainer: {
@@ -101,7 +101,6 @@ const styles = StyleSheet.create({
     marginRight: 8,
 
     color: 'rgba(0, 0, 0, 0.5)',
-    textDecorationLine: 'line-through',
   },
   discountPrice: {
     fontSize: 18,
