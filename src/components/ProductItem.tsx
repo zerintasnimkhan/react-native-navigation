@@ -28,7 +28,7 @@ const ProductItem = ({product}: ProductProps) => {
             
             <View style={[styles.rowContainer, styles.priceContainer]}>
                 <Text style={styles.originalPrice}>
-                    ₹{product.originalPrice.toLocaleString()}
+                    ${product.originalPrice.toLocaleString()}
                 </Text>
         </View>
       </View>
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
         marginBottom: 4,
     
         fontSize: 15,
-        fontWeight: '500',
+        fontWeight: '800',
       },
       ratingContainer: {
         marginBottom: 8,
